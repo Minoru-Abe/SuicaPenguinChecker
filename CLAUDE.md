@@ -1,5 +1,7 @@
 # SuicaPenguinChecker
 
+> **[2026-05-23 廃止済み]** AWSリソースはすべて削除済み。コードはアーカイブとして残存。
+
 JRE MALLのSuicaペンギン くたっとぬいぐるみの在庫状況を毎日チェックし、LINEに通知するシステム。
 
 ## 対象URL
@@ -38,7 +40,9 @@ LINE Messaging API で通知
 `btn-discontinued` クラスのボタンが存在すれば在庫なし、`add-cart` クラスのボタンが存在すれば在庫あり。
 両方のボタンがDOMに存在するケースがあるため、`btn-discontinued` を優先チェックする。
 
-## AWS構成
+## AWS構成（削除済み）
+
+> 2026-05-23 にすべて削除済み。
 
 | リソース | 名前/値 |
 |---|---|
@@ -52,7 +56,7 @@ LINE Messaging API で通知
 | IAM Lambdaロール | `suica-checker-lambda-role` |
 | リージョン | `ap-northeast-1` (東京) |
 
-## Parameter Store
+## Parameter Store（削除済み）
 
 | パラメータ名 | タイプ | 内容 |
 |---|---|---|
